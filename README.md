@@ -160,6 +160,100 @@ When pressing the 'Manage JOKER Data' button from the main menu (R1),
 the 'Manage JOKER Data' screen opens.
 ![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/580b8972-04cf-470d-a8da-117ddd2dc5a0)
 
+When pressing button (1) for searching without entering the Game ID, the program displays the message: (2) 'Please provide a valid GAME ID!'
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/42e52c5e-217a-41b0-937c-052ee95b94ae)
+
+Entering a valid (1) Game ID and pressing (2) search displays the message: (4) 'Search successful,' and (3) selecting the draw from the table fills in the tables with the information: (5) Number of wins for each category, (6) Winnings per win per category, (7) Draw number, (8) Draw date, (9) Lucky draw numbers, and (10) Joker draw.
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/fa90f6e5-a7c0-454d-84eb-25d25780c4e8)
+
+Pressing (1) search without entering dates will display the program message (2) 'You must enter dates!' (the same message will appear if only one of the two date fields is filled in).
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/accbeae9-189b-4c2c-bf1c-9c8fd3199690)
+
+If the date in the (1) From field is later than the date in the (2) To field, and you press search, the program will display the message: (3) "The From date must be greater than the To date."
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/48b2650d-71af-4e9c-ac68-60d7ece5218f)
+
+If a date later than today is entered in one of the two date input fields (1) and a search is pressed, the program displays the message: (2) "The selected date is greater than today."
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/fbf203bd-12d9-48e7-b0a1-505095242c83)
+
+If valid dates are entered in the date fields (1) From - To and the search button is pressed, the program displays all the draws that took place during that period in the (2) table, and the program displays the message: (3) "The search was successful!"
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/207abceb-414c-40aa-9222-8aaad2be9b29)
+
+When the (1) Save Data button is pressed (provided there are draws in the table), all the draws in the table are stored in the database, and the message (2) "The save was successful!" is displayed.
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/602fff43-d20a-4932-bb3a-bcf891b35c86)
+
+If the data already exists in the database and the (1) Save Data button is pressed, the program will display the message: (2) "The save was NOT successful, the data already exists in the Database!"
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/bf3f23a2-6fc8-468a-bead-fdcd1fa0b447)
+
+If the (1) Save Data button is pressed without any draws in the table, the program will display the message: (2) "Search for the data you want to save."
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/0aa20ac7-3512-49ae-9d57-6bf82bde4cee)
+
+If (1) a draw is selected from the table, and it is stored in the database, and the (2) Delete Game Data button is pressed, a confirmation message appears: (3) "Are you sure you want to delete the data?" (Note: The Yes or No buttons appear in the same language as the system; in this case, they are in German, displaying the option Ja for Yes and Nein for No).
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/fb77bc52-4fda-4ccd-ad3b-d3ee2c903fe7)
+
+If the selected draw is not stored in the database, and the (1) Delete Game Data button is pressed, then the program will display the message: (2) "The data did not exist in the database and cannot be deleted."
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/ea8233ec-a500-4bb1-9afb-8db3ec1a0326)
+
+If the (1) Delete Game Data button is pressed while there are no draws in the (2) table, then the program will display the message: (3) "First, search for the data you want to delete!"
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/cf2d7672-9bcc-4a0f-846e-654618838d5a)
+
+If the (1) Delete Game Data button is pressed within a date range while there are no draws in the (2) table, then the program will display the message: (3) "There is no data in the table to be deleted!"
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/36630a5d-6f18-4566-a6db-bb068587387e)
+
+If the (1) Delete Game Data button is pressed within a date range, and there are draws in the database, then a confirmation message for deletion appears. If Yes is selected (i.e., to delete), the program deletes the draws in the table and displays the message: (2) "Deletion was successful."
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/e44571e5-99ef-42a0-90db-71a8d889400a)
+
+If the (1) Delete Game Data button is pressed within a date range, a confirmation message appears: "Are you sure you want to delete the data?" (The confirmation message is not shown in the screenshot, but it's the same one that appears when the Delete Game Data button is pressed). If the confirmation is confirmed and the draws in the table are not stored in the database, the program displays the message: (2) "The data did not exist in the database to be deleted," and the draws are deleted from the table.
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/3266230e-7601-4681-8470-39238393ce88)
+
+If the Menu button is pressed, the program returns to the main menu.
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/28aa21e2-ba27-44fb-8ca6-826a1ea14d5a)
+
+Pressing the View Joker Data button on the main menu displays the Joker Data View screen. The program provides the option to select (1) a year (only from the years containing data in the database) and (2) a month. By clicking on the month, a new screen appears with the following information: Total games, Total money, and Total JACKPOT (these data are for the selected year and month in the database. In case there are no draws for the selected month, the values are displayed as zeros).
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/be3a4183-db67-410a-b691-8b3a2cafcbf8)
+
+With the Close button on the second screen, the screen terminates. 
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/0c0fa19e-3121-4e55-8d74-810e3a4d72a0)
+
+Using the Menu button on the Joker Data View screen returns the program to the main menu.
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/1c7cab5a-016b-4987-8117-64c323b9cefa)
+
+By clicking on the View Joker Statistics button on the main menu, the Joker Statistics Data View screen appears.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
