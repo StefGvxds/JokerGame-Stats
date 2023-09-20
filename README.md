@@ -153,7 +153,19 @@ At program startup, the main menu opens.
 
 By pressing the 'Exit' button, the program terminates. ![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/433ea45c-ad7f-4d8b-962d-7ce762bfa40a)
 
-When pressing the 'Manage JOKER Data' button from the main menu (R1), the 'Manage JOKER Data' screen opens.
+When pressing the 'Manage JOKER Data' button from the main menu (R1),
+
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/2c733a5d-6d9b-4668-93e8-37e7ebf2f60c)
+
+the 'Manage JOKER Data' screen opens.
+![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/580b8972-04cf-470d-a8da-117ddd2dc5a0)
+
+
+
+
+
+
+
 
 
 
