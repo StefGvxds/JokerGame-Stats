@@ -143,3 +143,37 @@ The application was developed in the Java programming language, and the followin
 • Trello https://trello.com
 • Microsoft Word for writing the project report
 • Microsoft Excel for fulfilling the project requirements as requested in the project description.
+
+**Execution of the Application**
+
+
+At program startup, the main menu opens.
+![Execution of the Application 1](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/ce7952e7-90d4-421e-8496-1ef70ea99b7a)
+By pressing the 'Exit' button, the program terminates. ![image](https://github.com/StefGvxds/JokerGame-Stats/assets/129869539/433ea45c-ad7f-4d8b-962d-7ce762bfa40a)
+
+When pressing the 'Manage JOKER Data' button from the main menu (R1), the 'Manage JOKER Data' screen opens.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
