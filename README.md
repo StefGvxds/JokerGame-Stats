@@ -144,7 +144,7 @@ The application was developed in the Java programming language, and the followin
 • Microsoft Word for writing the project report
 • Microsoft Excel for fulfilling the project requirements as requested in the project description.
 
-**Execution of the Application**
+#Execution of the Application
 
 
 At program startup, the main menu opens.
